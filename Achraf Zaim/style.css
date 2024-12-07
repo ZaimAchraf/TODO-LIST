@@ -1,0 +1,91 @@
+.container {
+    width: 50%;
+    margin: auto;
+    /* background: #ececec; */
+    border-radius: 15px;
+    padding: 20PX;
+}
+
+h1 {
+    text-align: center;
+    color: #686868;
+    font-family: math;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.header button {
+    background-color: #009cf7;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.header select {
+    background-color: #6d6d6d;
+    color: #d8d8d8;
+    border-radius: 5px;
+    width: 126px;
+}
+
+.list-items {
+    background-color: #eeeeee;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 25px 10px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 5px 18px;
+    border-radius: 5px;
+}
+
+.item .checkbox {
+    margin-right: 10px;
+}
+
+.item .buttons, .item .checkbox {
+    flex: 0 0 auto;
+}
+
+.item .content {
+    flex: 1 1 auto;
+    margin-right: 10px;
+}
+
+.content p.date {
+    font-size: 9px;
+    color: #7d7d7d;
+    font-weight: bold;
+}
+
+.content p {
+    margin: 0;
+    color: #525252;
+    font-family: math;
+    font-size: 15px;
+}
+
+.buttons button {
+    background-color: #f86161;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+button, select {
+    cursor: pointer;
+}
+
+.d-none {
+    display: none;
+}
